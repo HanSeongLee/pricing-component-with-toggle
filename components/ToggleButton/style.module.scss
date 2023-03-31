@@ -1,0 +1,40 @@
+
+.toggleButton {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+
+  &.on {
+    .button::before {
+      transform: translateX(calc(28px)) translateY(4px);
+    }
+  }
+
+  .label {
+    opacity: 0.5;
+  }
+
+  .button {
+    position: relative;
+    width: 56px;
+    height: 32px;
+    background: var(--primary-gradient-color);
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    outline: none;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 24px;
+      height: 24px;
+      background: var(--white-color);
+      content: "";
+      border-radius: 50%;
+      transform: translateX(5px) translateY(4px);
+      transition: transform 0.3s;
+    }
+  }
+}
