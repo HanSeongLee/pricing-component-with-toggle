@@ -1,0 +1,16 @@
+
+.button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+
+  &.primary {
+    height: 44px;
+    color: var(--white-color);
+    background: var(--primary-gradient-color);
+    border-radius: 6px;
+  }
+}
