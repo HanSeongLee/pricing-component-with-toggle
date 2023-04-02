@@ -1,3 +1,4 @@
+@import "styles/utils";
 
 .toggleButton {
   display: flex;
@@ -23,6 +24,12 @@
     border-radius: 16px;
     cursor: pointer;
     outline: none;
+
+    @include media(">desktop") {
+      &:hover {
+        background: var(--primary-gradient-highlight-color);
+      }
+    }
 
     &::before {
       position: absolute;

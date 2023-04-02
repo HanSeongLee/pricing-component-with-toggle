@@ -11,6 +11,7 @@
   // Primary Colors
   --primary-color: hsla(237, 63%, 65%);
   --primary-gradient-color: linear-gradient(140deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  --primary-gradient-highlight-color: linear-gradient(140deg, hsla(236, 72%, 79%, 0.5), hsla(237, 63%, 64%, 0.5));
 
   // Neutral Color
   --neutral-color: var(--grayish-blue-color);
