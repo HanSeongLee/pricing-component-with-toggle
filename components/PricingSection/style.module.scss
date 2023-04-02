@@ -1,0 +1,53 @@
+
+.pricingSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 64px;
+  padding-bottom: 71px;
+
+  &::before {
+    position: absolute;
+    top: -139px;
+    right: -293px;
+    width: 472px;
+    height: 760px;
+    background: url("/img/bg-top.svg") no-repeat;
+    content: "";
+  }
+
+  & > * {
+    position: relative;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 40px;
+  }
+
+  .monthlyToggleButton {
+    margin-bottom: 80px;
+  }
+
+  .planCardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    & > article:nth-child(2) {
+      background: var(--primary-gradient-color);
+
+      & > * {
+        color: var(--white-color);
+      }
+
+      a {
+        color: var(--primary-color);
+        background: var(--white-color);
+      }
+    }
+  }
+}
