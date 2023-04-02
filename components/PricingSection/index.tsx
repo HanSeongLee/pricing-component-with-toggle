@@ -23,6 +23,7 @@ const PricingSection: React.FC = () => {
                               off: 'Annually',
                               on: 'Monthly',
                           }}
+                          title={'Monthly Toggle Button'}
             />
             <PlanCardContainer className={styles.planCardContainer}
                                monthly={monthly}
