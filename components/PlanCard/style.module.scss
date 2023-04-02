@@ -1,0 +1,51 @@
+
+.planCard {
+  min-width: 327px;
+  text-align: center;
+  background: var(--white-color);
+  box-shadow: 0px 20px 40px rgba(212, 210, 244, 0.5);
+  border-radius: 10px;
+  padding: 31px 29px;
+
+  .name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 24px;
+  }
+
+  .price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 71px;
+    color: var(--dark-grayish-blue-color);
+    letter-spacing: -2.16px;
+    margin-bottom: 32px;
+
+    .currency {
+      font-size: 40px;
+      line-height: 49px;
+      letter-spacing: -1.2px;
+    }
+  }
+
+  .featureContainer {
+    margin-bottom: 32px;
+    list-style: none;
+
+    .featureItem {
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 28px;
+      padding: 12px 0;
+      border-top: 1px solid rgba(var(--grayish-blue-rgb-color), 0.25);
+
+      &:last-child {
+        border-bottom: 1px solid rgba(var(--grayish-blue-rgb-color), 0.25);
+      }
+    }
+  }
+}
