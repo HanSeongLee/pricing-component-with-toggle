@@ -5,7 +5,7 @@ import cn from 'classnames';
 import PlanCardContainer from 'containers/PlanCardContainer';
 
 const PricingSection: React.FC = () => {
-    const [monthly, setMonthly] = useState<boolean>(false);
+    const [monthly, setMonthly] = useState<boolean>(true);
 
     const onMonthlyToggle = () => {
         setMonthly(!monthly);
