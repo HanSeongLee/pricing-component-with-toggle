@@ -8,6 +8,7 @@
   padding-bottom: 71px;
 
   @include media(">desktop") {
+    padding-top: 71px;
     min-height: 850px;
     height: 100vh;
   }
